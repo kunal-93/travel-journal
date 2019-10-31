@@ -11,26 +11,27 @@
     <link rel="stylesheet" href="css/index.css?v=1.0">
   </head>
   <body>
-    <header class="header">
-      <h1 class="page-heading">Travel Journal</h1>
 
+    <header class="header">
+      <h1 class="primary-heading">Travel Journal</h1>
       <button class="open-or-close" id="menubtn">
         <div></div>
         <div></div>
       </button>
     </header>
-    
-    <nav class="cover" id="navigation">
-      <ul>
-        <li>Photos</li>
-        <li>About</li>
-        <li>Contact</li>
+
+    <nav class="navigation hidden" id="navpanel">
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    
+
     <main class="gallery">
       <article class="city toronto">
-        <h2 class="city-name"><a href="#">Toronto</a></h2>
+        <h2 class="city-name"><a href="#">Toronto is a city that I have visited</a></h2>
         <img src="/img/toronto.jpeg" alt="Toronto" class="city-photo">
       </article>
       <article class="city helsinki">
@@ -46,5 +47,7 @@
         <img src="/img/lagos.jpeg" alt="Lagos" class="city-photo">
       </article>
     </main>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
